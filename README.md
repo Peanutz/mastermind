@@ -10,16 +10,14 @@ Like really.
 ## First run
 
 ```
-nvm use `cat .node_versionn`
+nvm use `cat .node_version`
 npm install
-
 ```
 
 ## Usage (tons of fun)
 
 ```
 node index.js
-
 ```
 
 [1]: https://github.com/creationix/nvm
