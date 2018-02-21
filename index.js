@@ -72,7 +72,7 @@ class Game {
       if (answers.game_start === false) {
          return console.log(`So you don't wanna play ? Cya !`);
       }
-      console.log(`Type in ${game.solution_length} colors per round, available colors: ${game.avail_values.join('|')}, ${game.max_rounds} rounds. Good Luck!`);
+      console.log(`Type in ${this.solution_length} colors per round, available colors: ${this.avail_values.join('|')}, ${this.max_rounds} rounds. Good Luck!`);
       return this.play();
     });
   }
