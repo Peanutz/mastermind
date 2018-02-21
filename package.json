@@ -1,0 +1,13 @@
+{
+  "name": "mastermind",
+  "version": "1.0.0",
+  "description": "a really simple mastermind",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^5.1.0",
+    "table": "^4.0.2"
+  },
+  "devDependencies": {},
+  "author": "peanutz",
+  "license": "ISC"
+}
